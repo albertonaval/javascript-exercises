@@ -6,7 +6,7 @@
 // El argumento que le paso a la function es la temperatura que introduzco.
 
 const ftoc = function (fahrenheit) {
-  let celsius = (fahrenheit - 32) * 5/9
+  const celsius = (fahrenheit - 32) * 5/9
   return Math.round(celsius * 10) / 10;
 };
 
